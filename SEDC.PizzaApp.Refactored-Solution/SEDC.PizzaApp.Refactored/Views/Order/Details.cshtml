@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+}
+
+@model SEDC.PizzaApp.Domain.Models.Order
+
+<h2>Details: Order no. #@Model.Id</h2>
+<p>User Name: @Model.User.FirstName @Model.User.LastName</p>
+
